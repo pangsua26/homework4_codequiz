@@ -1,11 +1,21 @@
-var start = document.getElementById("start");
-var quiz = document.getElementById("quiz");
-var question = document.getElementById("question");
-var timer = document.getElementById("timer");
+var startEl = document.getElementById("start");
+var quizEl = document.getElementById("quiz");
+var questionEl = document.getElementById("question");
+var timerEl = document.getElementById("timer");
 
 
-var questions = [
-    {
-        question : 
-    }
-]
+function startTimer() {
+    document.getElementById("start").classList.add("d-none");
+    document.getElementById("quiz").classList.remove("d-none");
+
+    setTimer();
+    makeQuestions();
+}
+
+function setTimer() {
+
+    var countdown = setInterval(function () {
+        secondsLeft -- ;
+        timerEl.textContent = ""
+    })
+}
