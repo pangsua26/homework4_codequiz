@@ -9,3 +9,11 @@ a {
 #submitbtn {
     background-color: purple;
 }
+
+#choices {
+    background-color: purple;
+}
+
+#choices:hover {
+    background-color: plum;
+}
