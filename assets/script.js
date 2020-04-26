@@ -1,6 +1,6 @@
 // Select elements by ID
 
-var startEl = document.getElementById("start");
+var startQuiz = document.getElementById("startBtn")
 var quizEl = document.getElementById("quiz");
 var timerEl = document.getElementById("timer");
 var questionEl = document.getElementById("question");
@@ -8,6 +8,24 @@ var choice1 = document.getElementById("choice1");
 var choice2 = document.getElementById("choice2");
 var choice3 = document.getElementById("choice3");
 var choice4 = document.getElementById("choice4");
+
+
+
+// add eventLister on startBtn
+startQuiz.addEventListener("click", startBtn)
+
+// function to start the quiz
+function startBtn() {
+    console.log("start")
+    startQuiz.classList.add("hide")
+    quizEl.classList.remove("hide")
+}
+   
+// // function to start timer
+function startTimer() {
+
+
+}
 
 // Create questions and answers and correct answer
 let questions = [
@@ -57,3 +75,4 @@ let questions = [
     },
 
 ]
+
