@@ -17,6 +17,6 @@ This homework was really difficult for me because I kept getting a lot of syntax
 ## Sources
 
 - Watched again all Javascript and Web API course videos
-- Reviewed all activyies from week 4
+- Reviewed all activties from week 4
 - Utilized W3Schools(https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 - Reviewed hide attributes (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden)
