@@ -16,7 +16,8 @@ This homework was really difficult for me because I kept getting a lot of syntax
 ## Additional Information
 
 For some reason, my master branch is only picking up a 404 for the main page although as you can see by the above image, it is pulling up from my drive. I will continue to work on this issue since I didn't have this issue with my other homework assignments.
-![404](./assets/github_issue.png)
+
+![404](./assets/issue.png)
 
 ## Sources
 
