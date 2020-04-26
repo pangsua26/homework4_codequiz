@@ -13,11 +13,10 @@ The purpose of this excercise is to create a multiple choice quiz with a 90 seco
 
 This homework was really difficult for me because I kept getting a lot of syntax errors even with the bracket colorizer. Once we started jQuery, I found it harder to use getElementID in the js file and found myself fighting want to use jquery in the html file. With that said, I wasn't able to complete as much as I wanted within this homework.
 
-## Additional Information
+## Additional Issue
 
 For some reason, my master branch is only picking up a 404 for the main page although as you can see by the above image, it is pulling up from my drive. I will continue to work on this issue since I didn't have this issue with my other homework assignments.
 
-![issue](./assets/issue.png)
 
 ## Sources
 
