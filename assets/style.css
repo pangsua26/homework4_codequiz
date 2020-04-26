@@ -10,10 +10,28 @@ a {
     background-color: purple;
 }
 
-#choices {
+#choice1 {
     background-color: purple;
 }
 
-#choices:hover {
+#choice2 {
+    background-color: purple;
+}
+#choice3 {
+    background-color: purple;
+}
+#choice4 {
+    background-color: purple;
+}
+#choice1:hover {
+    background-color: plum;
+}
+#choice2:hover {
+    background-color: plum;
+}
+#choice3:hover {
+    background-color: plum;
+}
+#choice4:hover {
     background-color: plum;
 }

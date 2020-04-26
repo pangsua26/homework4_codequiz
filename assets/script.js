@@ -1,21 +1,15 @@
 var startEl = document.getElementById("start");
 var quizEl = document.getElementById("quiz");
-var questionEl = document.getElementById("question");
 var timerEl = document.getElementById("timer");
+var questionEl = document.getElementById("question");
+var choice1 = document.getElementById("choice1");
+var choice2 = document.getElementById("choice2");
+var choice3 = document.getElementById("choice3");
+var choice4 = document.getElementById("choice4");
 
-
-function startTimer() {
-    document.getElementById("start").classList.add("d-none");
-    document.getElementById("quiz").classList.remove("d-none");
-
-    setTimer();
-    makeQuestions();
-}
-
-function setTimer() {
-
-    var countdown = setInterval(function () {
-        secondsLeft -- ;
-        timerEl.textContent = ""
-    })
-}
+let questions = [
+    {
+        question : "Commonly used data types DO NOT include:",
+        choice1 : 
+    }
+]
