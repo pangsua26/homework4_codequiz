@@ -8,6 +8,7 @@ var choice1 = document.getElementById("choice1");
 var choice2 = document.getElementById("choice2");
 var choice3 = document.getElementById("choice3");
 var choice4 = document.getElementById("choice4");
+var response = document.getElementById("response");
 
 
 
@@ -19,16 +20,15 @@ function startBtn() {
     console.log("start")
     startQuiz.classList.add("hide")
     quizEl.classList.remove("hide")
-}
    
-// // function to start timer
-function startTimer() {
-
-
-}
+// function to start timer counting down from 90 seconds
+    timerEl();
+    var countdown = setInterval(function() {
+        timer--;
+    })
 
 // Create questions and answers and correct answer
-let questions = [
+var questions = [
     {
         question: "Commonly used data types DO NOT include:",
         choice1: "strings",
@@ -73,6 +73,6 @@ let questions = [
         choice4: "console.log",
         correct: "choice4"
     },
-
 ]
 
+}
