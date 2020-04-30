@@ -2,6 +2,7 @@
 
 var head = document.getElementById("start");
 var startQuiz = document.getElementById("startBtn")
+var secondsLeft = 90;
 var quizEl = document.getElementById("quiz");
 var timerEl = document.getElementById("timer");
 var questionEl = document.getElementById("questions");
@@ -23,8 +24,6 @@ function startBtn() {
     head.style.display="none"
     quizEl.style.display="block"
    
-
-
 // Create questions and answers and correct answer
 var questions = [
     {
@@ -90,9 +89,7 @@ for (var i = 0; i < questions[index].choice.length; i++ ) {
     console.log(questions[index].choice[i])
 }
 
-// function to start timer counting down from 90 seconds
-// timerEl();
-// var countdown = setInterval(function() {
-//     timer--;
-// })
+
+
 }
+

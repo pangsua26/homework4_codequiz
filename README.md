@@ -13,6 +13,10 @@ The purpose of this excercise is to create a multiple choice quiz with a 90 seco
 
 This homework was really difficult for me because I kept getting a lot of syntax errors even with the bracket colorizer. Once we started jQuery, I found it harder to use getElementID in the js file and found myself fighting want to use jquery in the html file. With that said, I wasn't able to complete as much as I wanted within this homework.
 
+#Update
+
+I was able to work with a tutor and was able to console.logt log the questions and answers. Although the first question displayed, I was still not able to get the questions to pop up... yet. I know that's not much of an overall progress but for me, that is an improvement.
+
 
 ## Sources
 
