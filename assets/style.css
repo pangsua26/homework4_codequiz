@@ -12,16 +12,20 @@ a {
 
 #choice1 {
     background-color: purple;
+    text-align: left;
 }
 
 #choice2 {
     background-color: purple;
+    text-align: left;
 }
 #choice3 {
     background-color: purple;
+    text-align: left;
 }
 #choice4 {
     background-color: purple;
+    text-align: left;
 }
 #choice1:hover {
     background-color: plum;
